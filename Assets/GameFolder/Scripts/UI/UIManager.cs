@@ -103,9 +103,9 @@ public class UIManager : MonoBehaviour
 
     public void RewardButton()
     {
-        gameData.heartCount = 3;
-        gameManager.gameState = GameState.Playable;
-        Debug.Log("Video İzlendi");
+       // gameData.heartCount = 3;
+       //gameManager.gameState = GameState.Playable;
+       // Debug.Log("Video İzlendi");
     }
 
     public void CollectObject()
